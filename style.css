@@ -1,0 +1,27 @@
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+table{
+    border: 1px solid lightblue;
+    font-size: 20px;
+    border-collapse: collapse;
+    color: #000;
+}
+td,th{
+    border: 1px solid lightblue;
+    padding: 5px 15px;
+}
+thead{
+    background-image: url(free-photo-collage-maker.jpg);
+    color: #fff;
+}
+tbody tr:nth-child(odd){
+    background: #DDD;
+}
+tbody tr:nth-child(even){
+    background: rgb(245, 197, 204);
+}
